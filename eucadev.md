@@ -5,7 +5,9 @@ These tools allow one to deploy a Eucalyptus cloud—in a Vagrant-provisioned VM
 Definitions:
 
 **VBH**   Virtual Box Host OS
+
 **CIBH**  Cloud in A Box Host OS
+
 **CIBG**  Cloud in A Box Guest OS (an instances running under Eucalyptus)
 
 ### Dev/test environment in a VirtualBox VM
