@@ -37,7 +37,6 @@ On **VBH** perform the following steps:
         $ cd eucalyptus-cookbook
 
 6. *Optionally:* Check the default parameters in `Vagrantfile` and `roles/cloud-in-a-box.json`
-
   * `install-type` is `"packages"` by default. Set the value to `"source"` for a source based installation. This can take twice the time of a package install (e.g., 48 min instead of 20), but you will be able to edit and re-deploy code easily.
   * In Vagrantfile, `memory` is 3GB (`3072`) by default. For a source-based install without a Web console, you may be able to get away with less, such as 1GB. Giving the VM more should improve performance.
 
